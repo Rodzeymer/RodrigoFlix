@@ -97,7 +97,45 @@ color: black;
 }
 
 .box-filme{
-    height: 50%;
+    height: 500%;
     width: 50%;
     display: flex;
 }
+
+.flip-card {
+    height: 400px;
+    perspective: 1000px;
+  }
+  
+  .flip-card:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .card-front, 
+  .card-back {
+    backface-visibility: hidden;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .card-back {
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    padding:1em;
+    background-color: rgba(255, 255, 255, 0.7);
+    color:#141414;
+    height: 250px;
+    width: 100%;
+    transform: rotateY(180deg);
+    
+  }
+  
