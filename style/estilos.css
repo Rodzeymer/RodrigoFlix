@@ -41,24 +41,7 @@ header nav a:hover{
 }
 /*filme principal*/
 
-.filme-principal{
-    font-size: 16px;
-    background: linear-gradient(
-        rgba(0, 0, 0, .50),
-     rgba(0, 0, 0, .50)100%),
-     url('../img/capa-house.jpg');
-
-    height: 400px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-}
-
-.filme-principal .descricao{
+.descricao{
     margin-top: 10px;
     margin-left: 40%;
     margin-bottom: 40px;
