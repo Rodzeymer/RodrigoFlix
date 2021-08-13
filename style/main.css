@@ -60,11 +60,13 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-top: 10px;
+    margin-left: 40%;
     margin-bottom: 40px;
 }
 
 .titulo{
-    margin-top: 15%;
+    margin-top: 20%;
+    margin-left: 40%;
     font-size: 40px;
     font-family: 'Trebuchet MS';
 
@@ -103,6 +105,7 @@ color: black;
 }
 
 .flip-card {
+    cursor: pointer;
     height: 400px;
     perspective: 1000px;
   }
