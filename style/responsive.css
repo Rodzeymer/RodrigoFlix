@@ -1,54 +1,106 @@
-@media screen and (max-width: 700px) {
-    header .container{
-        display: flex;
-        flex-direction: column;
-        }
-        .titulo{
-            display:inline-block;
-            position: relative;
-            top:-190px;
-            left: 200px;            
-            margin-left: 40%;
-            font-size: 32px;
-            font-family: 'Trebuchet MS';
-        }
-
-    .descricao{
-        display:inline-block;
+@media screen and (max-width: 1000px) {
+    .titulo{
         position: relative;
-        top:-390px;
-        left: 200px;            
-        margin-left: 40%;
-        font-size: 16px;
+        top:150px;
+        margin-left: 37vw;
+        font-size: 40px;
         font-family: 'Trebuchet MS';
     }
-    
-
-    .foto{
-        float: left;
-    }
-    .botao{  
-        display:inline-block;
-        position: relative;
-        top:-510px;
-        left: 8px;   
-        width: 160px;
-        height: 60px;
-        font-size: 10px;
-    }
-
-    .container{
-    width: 80%;
-    height: fit-content;
-}
-    .filme-principal{
-    height: 50%;
-}
-}
-
-@media screen and (min-width:1000px) {
     .descricao{
-        width: 50%;
+        display: flex;
+        margin-top: 250px;
+        margin-left: 37vw;
+        margin-bottom: 40px;
+    }
+
+    .botao{
+        position: relative;
+        top: -7vw;
+        left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .filme-principal .container{
+        width: 90%;
     }
     
+    .foto{
+        height: 250px;
+    }
+
+    .titulo{
+        position: relative;
+        top:100px;
+        margin-left: 34vw;
+        font-size: 40px;
+        font-family: 'Trebuchet MS';
+    }
+    .descricao{
+        display: flex;
+        margin-top: 150px;
+        margin-left: 34vw;
+        margin-bottom: 40px;
+    }
+
+    .botao{
+        position: relative;
+        top: -9vw;
+        left: 2px;
+
+        padding: 10px 10px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    header .logo{
+        margin-left: 5px;
+        color: var(--vermelho);
+        font-family: Arial;
+        font-size: 22px;
+    }
+    header nav a{
+        text-decoration: none;
+        color: #AAA;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .filme-principal .container{
+        width: 100%;
+    }
+    
+    .foto{
+        height: 200px;
+    }
+
+    .titulo{
+        position: relative;
+        top:30px;
+        margin-left: 44vw;
+        font-size: 32px;
+        font-family: 'Trebuchet MS';
+    }
+    .descricao{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 44vw;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+
+    .botao{
+        position: relative;
+        top: -7vw;
+        left: 2px;
+
+        padding: 5px 5px;
+        margin-right: 20px;
+        font-size: 9px;
+    }
+
 }

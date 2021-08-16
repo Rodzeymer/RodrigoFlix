@@ -44,14 +44,14 @@ header nav a:hover{
 .descricao{
     display: flex;
     margin-top: 250px;
-    margin-left: 40%;
+    margin-left: 30vw;
     margin-bottom: 40px;
 }
 
 .titulo{
     position: relative;
     top:150px;
-    margin-left: 40%;
+    margin-left: 30vw;
     font-size: 40px;
     font-family: 'Trebuchet MS';
 
@@ -73,7 +73,7 @@ header nav a:hover{
     color: white;
 
     position: relative;
-    top: -55px;
+    top: -5vw;
     left: 10px;
 
     padding: 15px 30px;
@@ -94,7 +94,7 @@ color: black;
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 80%;
 }
 
 .box-filme{
